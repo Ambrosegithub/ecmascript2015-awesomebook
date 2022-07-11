@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 15%;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe4c4;
+  }
+  
+  #listname {
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    align-self: center;
+  }
+  
+  #top-part {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 50px;
+  }
+  
+  #inputdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .btn {
+    width: 30px;
+    align-self: flex-end;
+    box-shadow: 2px 3px #000;
+  }
+  
+  #displayField {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    border: 2px solid #333;
+    width: 70%;
+  }
+  
+  .delete {
+    box-shadow: 3px 4px #000;
+    margin: 3px 3px 3px 10%;
+  }
+  
+  #navbar {
+    border: 2px solid #333;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #navlist {
+    display: flex;
+    background-color: #fff;
+  }
+  
+  #navlist li {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  #navlist li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #navspan {
+    width: 50%;
+  }
+  
+  #link1 {
+    border-right: 1px solid #000;
+    padding-right: 15px;
+    align-self: center;
+  }
+  
+  #link2 {
+    height: 100%;
+    width: 20px;
+    border-right: 1px solid #000;
+    padding-right: 50px;
+    align-self: center;
+  }
+  
+  #contact {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    gap: 20px;
+  }
+  
+  #contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    margin-inline: 1%;
+    border: 3px solid #1a2826;
+    margin-top: 250px;
+  }
+  
+  #footer p {
+    text-align: start;
+  }
+
+  #current-date {
+    float: right;
+    margin-right: 4%;
+    font-size: 22px;
+    color: teal;
+  }

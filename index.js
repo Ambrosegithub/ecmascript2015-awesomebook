@@ -2,6 +2,7 @@ import { bookBank } from "../modules/main.js";
 import { bookStore } from "../modules/storage.js";
 import { userInterface } from "../modules/userInterface.js";
 import { DateTime } from "./node_modules/luxon/build/es6/luxon.js";
+/* eslint-disable no-unused-vars */
 
 const navHeader = document.querySelector("#navlink-header");
 const navcont = document.createElement("div");

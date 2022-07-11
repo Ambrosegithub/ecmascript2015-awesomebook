@@ -1,6 +1,6 @@
-import { bookBank } from '../modules/main.js';
-import { bookStore } from '../modules/storage.js';
-import  { userInterface } from '../modules/userInterface.js';
+import { bookBank } from "../modules/main.js";
+import { bookStore } from "../modules/storage.js";
+import { userInterface } from "../modules/userInterface.js";
 import { DateTime } from "./node_modules/luxon/build/es6/luxon.js";
 
 const navHeader = document.querySelector("#navlink-header");
@@ -27,7 +27,9 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 
 const now = DateTime.now();
-document.getElementById('current-date').innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
+document.getElementById("current-date").innerHTML = now.toLocaleString(
+  DateTime.DATETIME_MED
+);
 
 link1.addEventListener("click", () => {
   const toppart = document.getElementById("top-part");

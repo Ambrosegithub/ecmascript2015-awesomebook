@@ -4,11 +4,11 @@ import { BookBank } from './main.js';
 import { bookStore } from './storage.js';
 
 class userInterface {
-
   static displayBooks() {
     const books = bookStore.getbookBank();
     books.forEach((_newBook) => userInterface.addBook(_newBook));
   }
+  
   static addBook(_newBook) {
     const outputField = document.getElementById('displayField');
     const ul = document.createElement('ul');
@@ -69,8 +69,8 @@ document.querySelector('#displayField').addEventListener('click', (e) => {
 
   //    remove book for storage
   bookStore.removeBook(
-    e.target.parentElement.parentElement.firstChild.firstChild.textContent
+    e.target.parentElement.parentElement.firstChild.firstChild.textContent,
   );
 });
 
-export { userInterface };
+export default userInterface ;

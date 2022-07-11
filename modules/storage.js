@@ -4,11 +4,11 @@ class bookStore {
   static getbookBank() {
     // check if local storage is empty
     let books;
-    if (localStorage.getItem("books") === null) {
+    if (localStorage.getItem('books') === null) {
       books = [];
     } else {
       // otherwise get books from store
-      books = JSON.parse(localStorage.getItem("books"));
+      books = JSON.parse(localStorage.getItem('books'));
     }
     return books;
   }
@@ -17,7 +17,7 @@ class bookStore {
   static addBook(book) {
     const books = bookStore.getbookBank();
     books.push(book);
-    localStorage.setItem("books", JSON.stringify(books));
+    localStorage.setItem('books', JSON.stringify(books));
   }
 
   // remove book from storage
@@ -28,7 +28,7 @@ class bookStore {
         books.slice(index, 1);
       }
     });
-    localStorage.setItem("books", JSON.stringify(books));
+    localStorage.setItem('books', JSON.stringify(books));
   }
 }
 export { bookStore };

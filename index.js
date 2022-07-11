@@ -1,4 +1,4 @@
-import { bookBank } from "../modules/main.js";
+import { BookBank } from "../modules/main.js";
 import { bookStore } from "../modules/storage.js";
 import { userInterface } from "../modules/userInterface.js";
 import { DateTime } from "./node_modules/luxon/build/es6/luxon.js";

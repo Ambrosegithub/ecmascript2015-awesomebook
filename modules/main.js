@@ -1,5 +1,5 @@
 
-class bookBank {
+class BookBank {
     constructor(title, author) {
       this.title = title;
       this.author = author;
@@ -114,5 +114,4 @@ class bookBank {
     );
   });
   */
- export {bookBank};
- 
+ export {BookBank};

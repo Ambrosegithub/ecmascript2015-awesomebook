@@ -8,7 +8,7 @@ class userInterface {
     const books = bookStore.getbookBank();
     books.forEach((_newBook) => userInterface.addBook(_newBook));
   }
-  static addBook (_newBook) {
+  static addBook(_newBook) {
     const outputField = document.getElementById('displayField');
     const ul = document.createElement('ul');
     const li = document.createElement('li');

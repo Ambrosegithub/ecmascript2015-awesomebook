@@ -1,6 +1,7 @@
-import userInterface from '../modules/userInterface.js';
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 /* eslint-disable no-unused-vars */
+import userInterface from './modules/userInterface.js';
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+
 const navHeader = document.querySelector('#navlink-header');
 const navcont = document.createElement('div');
 const navbar = document.createElement('nav');
@@ -17,9 +18,9 @@ navcont.appendChild(navbar);
 navbar.append(navspan, navlist);
 navlist.append(navlistitem);
 navlistitem.append(navlistLinks);
-navlistitem.innerHTML = `<a href='#' id='link1' class='link'>list</a>`;
-navlistitem.innerHTML += `<a href='#' id='link2' class='link'>add new</a>`;
-navlistitem.innerHTML += `<a href='#' id='link3'class='link'>contact</a>`;
+navlistitem.innerHTML = '<a href=\'#\' id=\'link1\' class=\'link\'>list</a>';
+navlistitem.innerHTML += '<a href=\'#\' id=\'link2\' class=\'link\'>add new</a>';
+navlistitem.innerHTML += '<a href=\'#\' id=\'link3\'class=\'link\'>contact</a>';
 const link1 = document.getElementById('link1');
 const link2 = document.getElementById('link2');
 const link3 = document.getElementById('link3');

@@ -5,4 +5,4 @@ class BookBank {
   }
 }
 
-export default BookBank ;
+export default BookBank;

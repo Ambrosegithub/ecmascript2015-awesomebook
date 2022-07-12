@@ -31,4 +31,4 @@ class bookStore {
     localStorage.setItem('books', JSON.stringify(books));
   }
 }
-export { bookStore };
+export default bookStore;

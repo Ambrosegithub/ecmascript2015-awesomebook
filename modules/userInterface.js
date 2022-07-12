@@ -1,7 +1,7 @@
 // add book to ui
-import { BookBank } from './main.js';
+import  BookBank from './main.js';
 
-import { bookStore } from './storage.js';
+import  bookStore  from './storage.js';
 
 class userInterface {
   static displayBooks() {
@@ -9,6 +9,7 @@ class userInterface {
     books.forEach((_newBook) => userInterface.addBook(_newBook));
   }
   static addBook(_newBook) {
+    
     const outputField = document.getElementById('displayField');
     const ul = document.createElement('ul');
     const li = document.createElement('li');
